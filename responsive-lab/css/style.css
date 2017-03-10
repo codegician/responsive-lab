@@ -1,16 +1,21 @@
 .container {
   width: 538px;
+  height: 536px;
 }
-section,aside{
-  margin: 10px;
+section, aside{
+  margin: 1.85%;
 }
 
-.section {
+section {
   float: left;
-  width: 340px;
+  width: 63.19%;
+  height: 50%;
+  background-color: red;
 }
 
-.aside {
+aside {
     float:right;
-    width: 158px;
+    width: 29.36%;
+    height: 50%;
+    background-color: red;
 }
