@@ -1,7 +1,9 @@
-.container {
-  width: 538px;
-  height: 536px;
+
+
+body{
+  background: #ddd;
 }
+
 section, aside{
   margin: 1.858736059%;
 }
@@ -9,21 +11,26 @@ section, aside{
 section {
   float: left;
   width: 63.197026%;
-  height: 50%;
+  /*height: 50%;*/
   background-color: red;
 }
 
 aside {
     float:right;
     width: 29.3680297%;
-    height: 50%;
+    /*height: 50%;*/
     background-color: red;
 }
 
 @media all and (max-width: 420px) {
   section, aside {
-    float:none;
+    float: none;
     width: auto;
-    background-color: blue;
+  }
+}
+
+@media all and (min-width: 800px) {
+  .container {
+    max-width: 538px;
   }
 }
