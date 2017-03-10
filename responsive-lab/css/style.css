@@ -3,19 +3,27 @@
   height: 536px;
 }
 section, aside{
-  margin: 1.85%;
+  margin: 1.858736059%;
 }
 
 section {
   float: left;
-  width: 63.19%;
+  width: 63.197026%;
   height: 50%;
   background-color: red;
 }
 
 aside {
     float:right;
-    width: 29.36%;
+    width: 29.3680297%;
     height: 50%;
     background-color: red;
+}
+
+@media all and (max-width: 420px) {
+  section, aside {
+    float:none;
+    width: auto;
+    background-color: blue;
+  }
 }
